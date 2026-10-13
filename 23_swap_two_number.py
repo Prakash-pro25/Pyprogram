@@ -3,9 +3,9 @@ b=int(input("enter number b:"))
 
 print(f"the value of the a is {a} and b is {b}")
 
-c=b
-b=a
-a=c
+a=b+a
+b=a-b
+a=a-b
 
 print(f"the value of the a is {a} and b is {b}")
 
