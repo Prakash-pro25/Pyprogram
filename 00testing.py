@@ -1,3 +1,1 @@
-s = "hellow wrold"
-
-print(len(s))
+print(f"you are eligible to place in training" if (input("dept:")=="IT" and float(input("CGPA:"))>=8) else "you are not eligible")
