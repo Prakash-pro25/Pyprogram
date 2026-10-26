@@ -1,0 +1,1 @@
+from 44_GCD import g
