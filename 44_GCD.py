@@ -1,3 +1,6 @@
+
+
+
 def GCD():
     num1 =int(input())
     num2 =int(input())
@@ -10,6 +13,4 @@ def GCD():
     return num1,num2,GCD
 
 
-""" [ num1,num2,GCD]=GCD()
-
-print("The GcD is:",GCD)    """         
+     
