@@ -10,4 +10,5 @@ for i in s:
     if recon != 1:
        a.add(i)
 
-print(a)       
+for i in a:
+ print(i,end=" ")       
