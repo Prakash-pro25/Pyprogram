@@ -1,16 +1,13 @@
 class Solution(object):
     def lengthOfLastWord(self, s):
-        
-        
-               
+          
         i = len(s) - 1
         count = 0
 
-        # Skip trailing spaces
         while i >= 0 and s[i] == ' ':
             i -= 1
 
-        # Count the last word's characters
+        print(i)
         while i >= 0 and s[i] != ' ':
             count += 1
             i -= 1
