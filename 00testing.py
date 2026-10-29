@@ -35,7 +35,7 @@ for ch in set(s):
     if s.count(ch)>1:
         print(ch)
          """
-
+""" 
 class Solution(object):
     def mergeAlternately(self, word1, word2):
 
@@ -48,7 +48,7 @@ class Solution(object):
 
             words+=word1[i]+word2[i] 
             i+=1
-        return words         
+        return words   """       
 
 
 """ if "IV" in s:
@@ -63,3 +63,14 @@ class Solution(object):
                     while "XC" in s:
                         total+=90
                         s=s.replace("XC","",1)    """
+from itertools import permutations
+s, n = input().split()
+s = s.upper()
+n = int(n)
+
+s= "".join(sorted(s))
+
+a=permutations(s,n)
+
+for i in a:
+    print("".join(i))
