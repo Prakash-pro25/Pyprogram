@@ -7,4 +7,4 @@ class Solution(object):
 
 c=Solution()
 
-print(c.firstPalindrome(["abc","car","ada","racecar","cool"]))
+print(c.firstPalindrome(["abc","car","ada","racecar","cool","Tenet","tenet"]))

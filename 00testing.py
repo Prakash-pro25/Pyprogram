@@ -63,7 +63,7 @@ class Solution(object):
                     while "XC" in s:
                         total+=90
                         s=s.replace("XC","",1)    """
-from itertools import permutations
+""" from itertools import permutations
 s, n = input().split()
 s = s.upper()
 n = int(n)
@@ -73,4 +73,32 @@ s= "".join(sorted(s))
 a=permutations(s,n)
 
 for i in a:
-    print("".join(i))
+    print("".join(i)) """
+
+""" sub=["java",'py','js','C#']
+m=[20,35,59,40]
+
+for i in sub:
+    print(i,end=" ")
+
+total=sum(m)
+avg=total/len(m)
+
+print("\ntotal\navg") """
+
+""" 
+
+n = int(input())
+a=[i for i in range(1,n+1)]
+total=0
+
+for i in a:
+    total+=i
+
+print(a,total)     """
+
+
+
+ls = [1, 2, 3, 4, 5]
+s = 0
+print([s   := s + i for i in ls])
